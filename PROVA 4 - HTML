@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROVA 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Site simples mostrando como uma junção harmoniosa de cores é essencial</h1>
+        <nav>
+            <ul>
+                <li><a href="#paleta1">Paleta Suave & Elegante.</a></li>
+                <li><a href="#paleta2">Paleta Natural & Suave.</a></li>
+                <li><a href="#paleta3">Paleta Sofisticada & Moderna.</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section>
+        <br><h2>Definições e objetivos de cada paleta.</h2>
+        <p><b>Paleta Suave & Elegante:</b> Essa paleta é harmoniosa porque mistura tons frios com um toque terroso quente, transmitindo equilíbrio e sofisticação.</p>
+        <p><b>Paleta Natural & Suave:</b> Essa paleta transmite tranquilidade, saúde e conexão com a natureza.</p>
+        <p><b>Paleta Sofisticada & Moderna:</b> Essa paleta é elegante, tecnológica e um pouco luxuosa, mantendo clareza e contraste visual.</p>
+    </section>
+    <aside>
+        <br><h3>Cores a serem consideradas em cada paleta.</h3>
+        <p id="paleta1"><b>Paleta Suave & Elegante:</b></p>
+         <ul class="paleta1">
+                <li class="Azul">Azul-petróleo</li>
+                <li class="Areia">Areia clara</li>
+                <li class="Cinza">Cinza azulado</li>
+                <li class="Terracota">Terracota clara</li>
+                <li class="Verde-s">Verde-sálvia</li>
+        </ul>
+         <p id="paleta2"><b>Paleta Natural & Suave:</b></p>
+         <ul class="paleta2">
+                <li class="Verde-m">Verde-musgo profundo</li>
+                <li class="Verde">Verde-sálvia suave</li>
+                <li class="Off">Off-white quente</li>
+                <li class="Cinza-e">Cinza escuro esverdeado</li>
+                <li class="Bege">Bege acinzentado</li>
+        </ul>
+         <p id="paleta3"><b>Paleta Sofisticada & Moderna:</b></p>
+         <ul class="paleta3">
+                <li class="Roxo">Roxo profundo</li>
+                <li class="Lavanda">Lavanda acinzentada</li>
+                <li class="Cinza-c">Cinza claro neutro</li>
+                <li class="Terracota">Terracota clara</li>
+                <li class="Grafite">Grafite</li>
+        </ul>
+    </aside>
+</main>
+<footer>
+    <p>&copy; 2025 Paletas de cores. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
