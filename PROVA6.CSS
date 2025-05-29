@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+.base {
+    background-color: gray;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+
+.nome{margin-bottom: 15px;
+    position: relative;
+}
+.senha {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+
+.nome::before{
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 55px; 
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+}
+.senha::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 55px; 
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+}
+
+.nome::before {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/17/17115.png');
+}
+.senha::before {
+    background-image: url('https://cdn-icons-png.flaticon.com/128/3064/3064269.png');
+}
+
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s;
+    overflow: hidden;
+}
+
+
+button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+}
+
+button:hover::after {
+    opacity: 1;
+}
+
+
+@media (max-width: 600px) {
+    .base {
+        width: 70%;
+        margin: 30px auto;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .base {
+        width: 70%;
+        margin: 30px auto;
+    }
+}
+@media (max-width: 1024px){
+    .base {
+        width: 70%;
+        margin: 30px auto;
+    }
+}
